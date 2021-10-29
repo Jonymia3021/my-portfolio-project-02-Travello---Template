@@ -1,3 +1,15 @@
 body {
+    font-family: 'Maven Pro', sans-serif;
     box-sizing: border-box;
+}
+
+.container {
+    margin: 50px 0px;
+}
+
+#header {
+    background-image: url(../images/Rectangle\ 12.png);
+    background-position: bottom left;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
