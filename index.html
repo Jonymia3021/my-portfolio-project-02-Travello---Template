@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jony- Project "Travello"</title>
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;700&display=swap" rel="stylesheet">
@@ -60,73 +61,50 @@
                     <button class="btn">Explore Packages   <i class="fas fa-long-arrow-alt-right"></i></button>
                 </div>
             </div>
-            <div class="row m-slider">
-                <!-- Container for the image gallery -->
-<div class="container">
-
-    <!-- Full-width images with number text -->
-    <div class="mySlides">
-      <div class="numbertext">1 / 6</div>
-        <img src="images/tatonomusic-60-LviCN4F4-unsplash.png" style="width:100%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">2 / 6</div>
-        <img src="images/praneet-kumar-H8dcf-v98mA-unsplash.png" style="width:100%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">3 / 6</div>
-        <img src="images/dipanshu-daga-9jjF5qs2XNk-unsplash.png" style="width:100%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">4 / 6</div>
-        <img src="images/gaurav-bagdi--umeutkfZew-unsplash.png" style="width:100%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">5 / 6</div>
-        <img src="images/pexels-ankush-rathi-925069.png" style="width:100%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">6 / 6</div>
-        <img src="images/pexels-aneesh-s-3370598.png" style="width:100%">
-    </div>
-  
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  
-    <!-- Image text -->
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-  
-    <!-- Thumbnail images -->
-    <div class="row">
-      <div class="column">
-        <img class="demo cursor" src="images/tatonomusic-60-LviCN4F4-unsplash.png" style="width:100%" onclick="currentSlide(1)" alt="Andaman Islands">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="images/praneet-kumar-H8dcf-v98mA-unsplash.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="images/dipanshu-daga-9jjF5qs2XNk-unsplash.png" style="width:100%" onclick="currentSlide(3)" alt="Northern Lights">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="images/gaurav-bagdi--umeutkfZew-unsplash.png" style="width:100%" onclick="currentSlide(4)" alt="Mountains and fjords">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="images/pexels-ankush-rathi-925069.png" style="width:100%" onclick="currentSlide(5)" alt="Architecture">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="images/pexels-aneesh-s-3370598.png" style="width:100%" onclick="currentSlide(6)" alt="Culture">
-      </div>
-    </div>
-  </div>
+        </div>
+        <div class="row">
+          <div class="slider-box">
+            <div class="img-box">
+              <img src="images/tatonomusic-60-LviCN4F4-unsplash.png" alt="">
+              <p><small>Best time to visit <br>October - March</small></p>
             </div>
+            <h4>Andaman Islands</h4>
+          </div>
+          <div class="slider-box">
+            <div class="img-box">
+              <img src="images/dipanshu-daga-9jjF5qs2XNk-unsplash.png" alt="">
+              <p><small>Best time to visit <br>October - March</small></p>
+            </div>
+            <h4>Kanyakumari</h4>
+          </div>
+          <div class="slider-box">
+            <div class="img-box">
+              <img src="images/praneet-kumar-H8dcf-v98mA-unsplash.png" alt="">
+              <p><small>Best time to visit <br>October - March</small></p>
+            </div>
+            <h4>Kashmir</h4>
+          </div>
+          <div class="slider-box">
+            <div class="img-box">
+              <img src="images/gaurav-bagdi--umeutkfZew-unsplash.png" alt="">
+              <p><small>Best time to visit <br>October - March</small></p>
+            </div>
+            <h4>Mountains</h4>
+          </div>
+          <div class="slider-box">
+            <div class="img-box">
+              <img src="images/pexels-aneesh-s-3370598.png" alt="">
+              <p><small>Best time to visit <br>October - March</small></p>
+            </div>
+            <h4>Culture</h4>
+          </div>
+          <div class="slider-box">
+            <div class="img-box">
+              <img src="images/pexels-ankush-rathi-925069.png" alt="">
+              <p><small>Best time to visit <br>October - March</small></p>
+            </div>
+            <h4>Architecture</h4>
+          </div>
         </div>
     </section>
 
@@ -157,6 +135,7 @@
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>
     <script src="https://kit.fontawesome.com/407727adb5.js" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
