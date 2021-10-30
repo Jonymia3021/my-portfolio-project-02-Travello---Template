@@ -78,15 +78,20 @@ h1 {
     border-radius: 50px;
 }
 
+.btn:hover {
+  color: white;
+  background: #E53D40;
+}
+
 h2 {
     color: #0d0d0d;
     font-weight: 700;
 }
 
-.slider-box {
+/* .slider-box {
   width: 310px;
   text-align: center;
-}
+} */
 
 .img-box {
   position: relative;
@@ -130,4 +135,12 @@ h2 {
     align-items: flex-start;
     margin-top: 20px;
     width: 18%;
+}
+
+section {
+  margin: 100px 0;
+}
+
+.heart i {
+  color: #E53D40;
 }
