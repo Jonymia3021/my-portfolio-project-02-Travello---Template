@@ -1,6 +1,8 @@
 body {
     font-family: 'Maven Pro', sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 #header {
@@ -157,6 +159,7 @@ section {
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 50px;
   position: relative;
+  /* margin-bottom: 0px; */
 }
 
 .about-text h2 {
